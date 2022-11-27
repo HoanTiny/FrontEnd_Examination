@@ -1,0 +1,10 @@
+.banner {
+    position: absolute;
+    height: 560px;
+    left: 0px;
+    right: 0px;
+    top: 88px;
+    &__img {
+        background: url("../img/bg.png"), #3c64b1;
+    }
+}

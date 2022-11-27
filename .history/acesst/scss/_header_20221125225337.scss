@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        img {
+            width: 70px;
+            height: 43px;
+        }
+    }
+
+    &__menu {
+        font-size: 14px;
+        display: flex;
+        margin-right: 8px;
+    }
+}

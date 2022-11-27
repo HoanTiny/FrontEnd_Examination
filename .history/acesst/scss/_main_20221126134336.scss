@@ -1,0 +1,24 @@
+.main {
+    &__info {
+        margin-top: 60px;
+        &-heading {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+
+            text-align: center;
+            letter-spacing: 0.1px;
+
+            color: #373f41;
+        }
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+
+            text-align: center;
+            letter-spacing: 0.3px;
+            margin-top: 24px;
+        }
+    }
+}

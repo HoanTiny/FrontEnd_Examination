@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        img {
+            width: 70px;
+            height: 43px;
+        }
+    }
+
+    &__menu {
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        span {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+    }
+
+    &__log {
+        .btn_login {
+            height: 18px;
+            background-color: $white_color;
+            color: $primary_color;
+            font-size: 14px;
+        }
+    }
+}

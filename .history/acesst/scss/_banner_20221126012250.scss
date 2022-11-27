@@ -1,0 +1,15 @@
+.banner {
+    position: absolute;
+    height: 560px;
+    left: 0px;
+    right: 0px;
+    top: 88px;
+    &__img {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: url("../img/bg.png");
+    }
+}
